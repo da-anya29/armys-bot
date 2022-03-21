@@ -1,6 +1,6 @@
 const { time } = require('console');
 const Discord = require('discord.js');
-const mySecret = process.env['TOKEN']
+const mySecret = process.env['token']
 client = new Discord.Client({
     intents: [
      "GUILDS",
