@@ -1,6 +1,6 @@
 const { time } = require('console');
 const Discord = require('discord.js');
-
+const mySecret = process.env['TOKEN']
 client = new Discord.Client({
     intents: [
      "GUILDS",
@@ -371,4 +371,4 @@ client.on("messageCreate",async message => {
 
 })
 
-client.login('');
+client.login(mySecret);
