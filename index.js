@@ -371,4 +371,4 @@ client.on("messageCreate",async message => {
 
 })
 
-client.login('OTMyODkxNDQxNjAzMTcwMzg1.YeZk2w.EWHgsJgPT0PGfoDki4ru206Pc-A');
+client.login('');
